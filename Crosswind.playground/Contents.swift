@@ -17,11 +17,11 @@ var Vc: Double = 0
 // Input from the user (Wind = 57 knots in this example).
 let Vw:Double = 57
 
-// angle calculated automatically according to user input (difference between wind and runway).
+// Angle calculated automatically according to user input (difference between wind and runway).
 // Here in this example, 30 degrees was used.
 let angle = 30.0
 
-// Function that calculates automatically angles in degrees to radians
+// Function that calculates automatically angles from degrees to radians
 func sin2rad(_ num: Double) -> Double {
     return sin(num * Double.pi / 180)
 }
